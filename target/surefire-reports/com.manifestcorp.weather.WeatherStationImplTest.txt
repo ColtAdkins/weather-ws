@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.manifestcorp.weather.WeatherStationImplTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.088 sec <<< FAILURE! - in com.manifestcorp.weather.WeatherStationImplTest
+testGetTempature(com.manifestcorp.weather.WeatherStationImplTest)  Time elapsed: 0.087 sec  <<< ERROR!
+com.sun.xml.internal.ws.client.ClientTransportException: The server sent HTTP status code 500: Internal Server Error
+	at com.manifestcorp.weather.WeatherStationImplTest.testGetTempature(WeatherStationImplTest.java:19)
+

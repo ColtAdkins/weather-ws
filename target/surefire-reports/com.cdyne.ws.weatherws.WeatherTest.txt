@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.cdyne.ws.weatherws.WeatherTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.517 sec <<< FAILURE! - in com.cdyne.ws.weatherws.WeatherTest
+testCallingCDYNEReturnsResult(com.cdyne.ws.weatherws.WeatherTest)  Time elapsed: 0.486 sec  <<< ERROR!
+com.sun.xml.internal.ws.client.ClientTransportException: The server sent HTTP status code 500: Internal Server Error
+	at com.cdyne.ws.weatherws.WeatherTest.testCallingCDYNEReturnsResult(WeatherTest.java:12)
+
